@@ -1,0 +1,19 @@
+--cpu=Cortex-M4.fp.sp
+"weather station\startup_stm32f401xc.o"
+"weather station\main.o"
+"weather station\stm32f4xx_it.o"
+"weather station\stm32f4xx_ll_gpio.o"
+"weather station\stm32f4xx_ll_i2c.o"
+"weather station\stm32f4xx_ll_dma.o"
+"weather station\stm32f4xx_ll_rcc.o"
+"weather station\stm32f4xx_ll_utils.o"
+"weather station\stm32f4xx_ll_exti.o"
+"weather station\stm32f4xx_ll_spi.o"
+"weather station\system_stm32f4xx.o"
+"weather station\hw_spi.o"
+"weather station\hw_gpio.o"
+"weather station\hw_i2c.o"
+--strict --scatter "Weather station\Weather station.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Weather station.map" -o "Weather station\Weather station.axf"

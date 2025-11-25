@@ -10,7 +10,7 @@ void SPI1_Init(void)
   SPI1_InitStruct.DataWidth = LL_SPI_DATAWIDTH_8BIT;
   SPI1_InitStruct.ClockPolarity = LL_SPI_POLARITY_LOW;
   SPI1_InitStruct.NSS = LL_SPI_NSS_SOFT;
-  SPI1_InitStruct.BaudRate = LL_SPI_BAUDRATEPRESCALER_DIV8;
+  SPI1_InitStruct.BaudRate = LL_SPI_BAUDRATEPRESCALER_DIV4;
   SPI1_InitStruct.BitOrder = LL_SPI_MSB_FIRST;
   SPI1_InitStruct.CRCCalculation = LL_SPI_CRCCALCULATION_DISABLE;
   SPI1_InitStruct.ClockPhase = LL_SPI_PHASE_1EDGE;

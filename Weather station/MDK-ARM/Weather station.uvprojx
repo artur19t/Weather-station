@@ -489,6 +489,26 @@
               <FileType>5</FileType>
               <FilePath>..\User\Inc\hw_i2c.h</FilePath>
             </File>
+            <File>
+              <FileName>font8x8.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\User\Src\font8x8.c</FilePath>
+            </File>
+            <File>
+              <FileName>font8x8.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\User\Inc\font8x8.h</FilePath>
+            </File>
+            <File>
+              <FileName>st7789.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\User\Src\st7789.c</FilePath>
+            </File>
+            <File>
+              <FileName>st7789.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\User\Inc\st7789.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

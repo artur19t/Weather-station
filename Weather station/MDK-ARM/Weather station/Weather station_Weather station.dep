@@ -95,7 +95,7 @@ I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x68F5D6F4)
 I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x68F5D6F4)
 I (..\Drivers\CMSIS\Include\core_cm4.h)(0x68F5D6F4)
 I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x68F5D6F4)
-F (..\User\Src\hw_spi.c)(0x691EFB35)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../User -I ../User/Inc -I ../User/Src-I./RTE/_Weather_station-IC:/Users/trety/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32F401xC -D_RTE_ -DUSE_FULL_LL_DRIVER -DHSE_VALUE="25000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DPREFETCH_ENABLE="1" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DSTM32F401xC-o "weather station/hw_spi.o" -MMD)
+F (..\User\Src\hw_spi.c)(0x691F19CB)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../User -I ../User/Inc -I ../User/Src-I./RTE/_Weather_station-IC:/Users/trety/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32F401xC -D_RTE_ -DUSE_FULL_LL_DRIVER -DHSE_VALUE="25000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DPREFETCH_ENABLE="1" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DSTM32F401xC-o "weather station/hw_spi.o" -MMD)
 I (..\User\Inc\hw_spi.h)(0x691B0ED0)
 I (..\Core\Inc\main.h)(0x691AF216)
 I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_i2c.h)(0x68F5D6F4)
@@ -152,3 +152,42 @@ I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_dma.h)(0x68F5D6F4)
 I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_spi.h)(0x68F5D6F4)
 I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_gpio.h)(0x68F5D6F4)
 F (..\User\Inc\hw_i2c.h)(0x691F00F3)()
+F (..\User\Src\font8x8.c)(0x69259A75)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../User -I ../User/Inc -I ../User/Src-I./RTE/_Weather_station-IC:/Users/trety/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32F401xC -D_RTE_ -DUSE_FULL_LL_DRIVER -DHSE_VALUE="25000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DPREFETCH_ENABLE="1" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DSTM32F401xC-o "weather station/font8x8.o" -MMD)
+I (..\User\Inc\font8x8.h)(0x69259AB4)
+I (..\Core\Inc\main.h)(0x691AF216)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_i2c.h)(0x68F5D6F4)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x68F5D6F4)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x68F5D6F4)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x68F5D6F4)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x68F5D6F4)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_rcc.h)(0x68F5D6F4)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_bus.h)(0x68F5D6F4)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_system.h)(0x68F5D6F4)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_exti.h)(0x68F5D6F4)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_cortex.h)(0x68F5D6F4)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_utils.h)(0x68F5D6F4)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_pwr.h)(0x68F5D6F4)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_dma.h)(0x68F5D6F4)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_spi.h)(0x68F5D6F4)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_gpio.h)(0x68F5D6F4)
+F (..\User\Inc\font8x8.h)(0x69259AB4)()
+F (..\User\Src\st7789.c)(0x69259C2E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../User -I ../User/Inc -I ../User/Src-I./RTE/_Weather_station-IC:/Users/trety/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include-D__UVISION_VERSION="543" -DSTM32F401xC -D_RTE_ -DUSE_FULL_LL_DRIVER -DHSE_VALUE="25000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DPREFETCH_ENABLE="1" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DSTM32F401xC-o "weather station/st7789.o" -MMD)
+I (..\User\Inc\st7789.h)(0x69259C1B)
+I (..\Core\Inc\main.h)(0x691AF216)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_i2c.h)(0x68F5D6F4)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x68F5D6F4)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x68F5D6F4)
+I (..\Drivers\CMSIS\Include\core_cm4.h)(0x68F5D6F4)
+I (..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x68F5D6F4)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_rcc.h)(0x68F5D6F4)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_bus.h)(0x68F5D6F4)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_system.h)(0x68F5D6F4)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_exti.h)(0x68F5D6F4)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_cortex.h)(0x68F5D6F4)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_utils.h)(0x68F5D6F4)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_pwr.h)(0x68F5D6F4)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_dma.h)(0x68F5D6F4)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_spi.h)(0x68F5D6F4)
+I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_gpio.h)(0x68F5D6F4)
+I (..\User\Inc\font8x8.h)(0x69259AB4)
+F (..\User\Inc\st7789.h)(0x69259C1B)()
